@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.motion.widget.MotionLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".main_login"
+    android:background="@color/dark_grey"
+    app:layoutDescription="@xml/activity_main_login_scene">
+
+    <ImageView
+        android:id="@+id/market_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerInside"
+        android:src="@drawable/market_vertical"
+        tools:ignore="RtlHardcoded"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <RelativeLayout
+        android:id="@+id/rel_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:text="@string/markefy"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:autofillHints=""
+            android:background="#304dd7ac"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:drawablePadding="28dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:autofillHints=""
+            android:background="#304dd7ac"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="28dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white" />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:text="@string/login" />
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/forgot_password"
+            android:textColor="@color/white"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/forgot_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/or_sign_in_with"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/social_icons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/others"
+            android:layout_centerHorizontal="true">
+
+            <ImageButton
+                android:id="@+id/facebook_login_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="140dp"
+                android:background="@drawable/facebook_icon"
+                android:clickable="false"
+                android:contentDescription="@string/icon" />
+
+            <ImageButton
+                android:id="@+id/google_login_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/google_icon"
+                android:contentDescription="@string/icon" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

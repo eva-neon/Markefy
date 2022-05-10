@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_baseline_arrow_back_24_dark"/>
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerInside"
+            android:background="@color/white"
+            android:src="@drawable/dia_icon_h"
+            android:layout_marginVertical="10dp"/>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/r1_c1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toLeftOf="@id/r1_c2"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/apple" />
+
+            <ImageButton
+                android:id="@+id/r1_c2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/pear" />
+
+            <ImageButton
+                android:id="@+id/r1_c3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@id/r1_c2"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/orange" />
+
+            </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/r2_c1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toLeftOf="@id/r2_c2"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/apple" />
+
+            <ImageButton
+                android:id="@+id/r2_c2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/apple" />
+
+            <ImageButton
+                android:id="@+id/r2_c3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@id/r2_c2"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/apple" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/r3_c1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toLeftOf="@id/r3_c2"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/apple" />
+
+            <ImageButton
+                android:id="@+id/r3_c2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/apple" />
+
+            <ImageButton
+                android:id="@+id/r3_c3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@id/r3_c2"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/apple" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/r4_c1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toLeftOf="@id/r4_c2"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/apple" />
+
+            <ImageButton
+                android:id="@+id/r4_c2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/apple" />
+
+            <ImageButton
+                android:id="@+id/r4_c3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@id/r4_c2"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/apple" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/r5_c1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toLeftOf="@id/r5_c2"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/apple" />
+
+            <ImageButton
+                android:id="@+id/r5_c2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/apple" />
+
+            <ImageButton
+                android:id="@+id/r5_c3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@id/r5_c2"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/apple" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/r6_c1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toLeftOf="@id/r6_c2"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/apple" />
+
+            <ImageButton
+                android:id="@+id/r6_c2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/apple" />
+
+            <ImageButton
+                android:id="@+id/r6_c3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@id/r6_c2"
+                android:adjustViewBounds="true"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:src="@drawable/apple" />
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+

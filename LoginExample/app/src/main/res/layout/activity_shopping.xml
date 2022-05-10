@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Stores"
+            android:textColor="@color/dark_grey"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <HorizontalScrollView
+            android:id="@+id/categories"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/discount"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:contentDescription=""/>
+
+                <ImageButton
+                    android:id="@+id/dia_square"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/dia_icon"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:contentDescription=""/>
+
+                <ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/lidl_icon"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:contentDescription=""/>
+
+                <ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/mercadona_icon"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:contentDescription=""/>
+
+                <ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/carrefour_icon"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:contentDescription=""/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerInside"
+            android:background="@color/white"
+            android:src="@drawable/dia_icon_h"
+            android:layout_marginVertical="10dp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dia_discounts" />
+
+                <ImageButton
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dia_fruits" />
+
+                <ImageButton
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dia_bakery"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerInside"
+            android:background="@color/white"
+            android:src="@drawable/lidl_icon_h"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lidl_discounts"/>
+
+                <ImageButton
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lidl_fruits"/>
+
+                <ImageButton
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lidl_bakery"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerInside"
+            android:background="@color/white"
+            android:src="@drawable/mercadona_icon_h"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/mercadona_discounts"/>
+
+                <ImageButton
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/mercadona_fruits"/>
+
+                <ImageButton
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/mercadona_bakery"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerInside"
+            android:background="@color/white"
+            android:src="@drawable/carrefour_icon_h"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/carrefour_discounts"/>
+
+                <ImageButton
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/carrefour_fruits"/>
+
+                <ImageButton
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/carrefour_bakery"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</ScrollView>
+
+
